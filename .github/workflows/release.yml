@@ -5,7 +5,7 @@ on:
     branches:
       - 'release-*'
 
-env:
+# env:
   # REGISTRY: ghcr.io
   # ALTERNATE_REGISTRY: ${{ secrets.DOCKER_REGISTRY }}
   # IMAGE_NAME: ${{ github.repository }}
