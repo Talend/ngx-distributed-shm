@@ -54,7 +54,6 @@ jobs:
             org.jacoco:jacoco-maven-plugin:prepare-agent \
             package \
             org.jacoco:jacoco-maven-plugin:report \
-            sonar:sonar \
             -B -e -V 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
