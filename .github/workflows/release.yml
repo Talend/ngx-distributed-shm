@@ -32,10 +32,10 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
           cache: maven
-      # - name: Configure Git user
-      #   run: |
-      #     git config user.email "actions@github.com"
-      #     git config user.name "GitHub Actions"
+      - name: Configure Git user
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
       - name: Perform Release
         run: mvn -B -Dtag=${GITHUB_REF##*release-} release:prepare release:perform
         env:
