@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.grrolland</groupId>
+    <groupId>com.talend</groupId>
     <artifactId>ngx-distributed-shm</artifactId>
     <version>1.0.9-SNAPSHOT</version>
 
     <name>ngx-distributed-shm</name>
     <description>This projet is memcached like server based on Hazelcast and Vertx. The goals of the project is to build an easy-to-use distributed memory storage with the nginx shared memory semantic for use with lua nginx plugin.</description>
 
-    <url>https://github.com/grrolland/ngx-distributed-shm</url>
+    <url>https://github.com/talend/ngx-distributed-shm</url>
 
     <licenses>
         <license>
@@ -20,9 +20,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:grrolland/ngx-distributed-shm.git</connection>
-        <developerConnection>scm:git:https://github.com/grrolland/ngx-distributed-shm.git</developerConnection>
-        <url>https://github.com/grrolland/ngx-distributed-shm</url>
+        <connection>scm:git:git@github.com:talend/ngx-distributed-shm.git</connection>
+        <developerConnection>scm:git:https://github.com/talend/ngx-distributed-shm.git</developerConnection>
+        <url>https://github.com/talend/ngx-distributed-shm</url>
       <tag>HEAD</tag>
   </scm>
 
@@ -30,7 +30,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/grrolland/ngx-distributed-shm</url>
+            <url>https://maven.pkg.github.com/talend/ngx-distributed-shm</url>
         </repository>
     </distributionManagement>
 
@@ -39,6 +39,11 @@
             <name>Grégoire Rolland</name>
             <email>gregoire.rolland@live.fr</email>
             <organizationUrl>https://github.com/grrolland</organizationUrl>
+        </developer>
+        <developer>
+            <name>Sébastien Gandon</name>
+            <email>sgandon@talend.com</email>
+            <organizationUrl>https://github.com/talend</organizationUrl>
         </developer>
     </developers>
 
