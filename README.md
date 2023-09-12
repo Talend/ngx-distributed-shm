@@ -1,8 +1,4 @@
-[![Build](https://github.com/grrolland/ngx-distributed-shm/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/grrolland/ngx-distributed-shm/actions/workflows/build.yml)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=io.github.grrolland%3Angx-distributed-shm&metric=alert_status)](https://sonarcloud.io/dashboard/index/io.github.grrolland:ngx-distributed-shm)
-[![Technical debt ratio](https://sonarcloud.io/api/project_badges/measure?project=io.github.grrolland%3Angx-distributed-shm&metric=sqale_index)](https://sonarcloud.io/dashboard/index/io.github.grrolland:ngx-distributed-shm)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=io.github.grrolland%3Angx-distributed-shm&metric=coverage)](https://sonarcloud.io/dashboard/index/io.github.grrolland:ngx-distributed-shm)
-[![Release](https://img.shields.io/github/release/grrolland/ngx-distributed-shm)](https://github.com/grrolland/ngx-distributed-shm/tags/)
+[![Build](https://github.com/talend/ngx-distributed-shm/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/talend/ngx-distributed-shm/actions/workflows/build.yml)
 
 
 # ngx-distributed-shm
