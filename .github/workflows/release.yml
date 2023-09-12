@@ -23,7 +23,7 @@ jobs:
         ##
         # Perform Maven Release
         #
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           ref: master
       - name: Set up JDK 11
@@ -44,7 +44,7 @@ jobs:
       ##
       #  Checkout and Build the Tag
       #
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           ref: ${{ steps.get_tag_name.outputs.VERSION }}
 
