@@ -49,7 +49,7 @@
 
     <properties>
         <vertx.version>4.4.5</vertx.version>
-        <hazelcast.version>5.0.5</hazelcast.version>
+        <hazelcast.version>5.3.5</hazelcast.version>
         <slf4j.version>2.0.9</slf4j.version>
         <logback.version>1.4.11</logback.version>
         <junit.version>4.13.2</junit.version>
