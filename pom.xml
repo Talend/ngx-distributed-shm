@@ -48,10 +48,10 @@
     </developers>
 
     <properties>
-        <vertx.version>4.4.5</vertx.version>
+        <vertx.version>4.4.8</vertx.version>
         <hazelcast.version>5.0.5</hazelcast.version>
         <slf4j.version>2.0.9</slf4j.version>
-        <logback.version>1.4.12</logback.version>
+        <logback.version>1.5.16</logback.version>
         <junit.version>4.13.2</junit.version>
     </properties>
 
@@ -120,7 +120,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.1.2</version>
+                <version>3.5.2</version>
                 <configuration>
                     <includes>
                         <include>**/HCSHMTestSuite.class</include>
@@ -130,7 +130,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.5.0</version>
+                <version>3.6.0</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
